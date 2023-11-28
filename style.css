@@ -1,0 +1,27 @@
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 100%;
+  }
+
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Style the button and place it in the middle of the container/image */
+  .container {
+    position: relative;
+    width: 50vw;
+    height: 25vh;
+    background-color: #25ca33;
+    border: 3px dotted rgb(214, 31, 31);
+  }
+
+  .btn-group {
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+    border: 2px dotted red;
+  }
